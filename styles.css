@@ -1,0 +1,70 @@
+body{
+    background-image:url("Alpine_Loop_2007_006.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+/* Divs */
+.intro{
+    text-align: center; 
+    font-size: 48px;
+    margin-top: 400px;
+    margin-bottom: 650px;
+}
+.col-md-4{
+    text-align: center;
+}
+.trans{
+    width: 100%;
+    height: 800px;
+    opacity: .5;
+    
+}
+.exitFooter{
+   display: none;
+    
+}
+.rightSide{
+    
+    float: right;
+    
+}
+
+/*Sections*/
+
+
+.services{
+    background-color: aliceblue;
+    height: 400px;
+}
+.services i:hover{
+ -webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(180deg);
+    
+    
+}
+.info{
+    background-image:url("The_Indian_Maharaja,_Deccan_Odyssey_-_Beauty_Salon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 1200px;
+}
+.contact{
+    background-color:blanchedalmond;
+    height: 450px;
+    
+}
+}
+
+/* Fonts */
+h1{
+    font-family: 'Berkshire Swash';
+    color:darkmagenta;
+}
+h2,
+h3{
+    font-family: 'Pinyon Script', cursive;
+    font-weight: 800;
+    color:firebrick;
+}
